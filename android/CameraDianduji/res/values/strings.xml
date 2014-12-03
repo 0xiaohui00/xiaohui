@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">拍照点读机</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="english">英语</string>
+    <string name="chinese">中文</string>
+    <string name="Camera">相机</string>
+    <string name="select">图库</string>
+    <string name="erzhihua">二值化处理</string>
+    <string name="result">请输入文字或载入图片</string>
+    <string name="selectPhoto">选择的图片：</string>
+    <string name="finshPhoto">处理后的图片：</string>
+    <string name="resulttwo">要翻译的内容：</string>
+    <string name="translateover">翻译的内容：</string>
+    <string name="btntranslate">朗读</string>
+    <string name="btntranslate2">翻译</string>
+    <string name="exit">退出</string>
+    <string name="about">关于</string>
+    <string name="dialog_msg">文本</string>
+    <string name="ok">确定</string>
+    
+
+</resources>

@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backphoto"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:checked="true"
+                android:text="@string/english" />
+
+            <RadioButton
+                android:id="@+id/chinese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/chinese" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_Camera"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="2dp"
+            android:text="@string/Camera"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="2dp"
+            android:layout_toLeftOf="@id/btn_Camera"
+            android:text="@string/select"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/relativeLayout1"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/ch_pretreat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/erzhihua" />
+
+            <EditText
+                android:id="@+id/et_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/result" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_translate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/voice"
+                    android:text="@string/btntranslate" />
+
+                <Button
+                    android:id="@+id/btn_translate2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btntranslate2"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectPhoto" />
+
+            <ImageView
+                android:id="@+id/iv_selected"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="300dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/finshPhoto" />
+
+            <ImageView
+                android:id="@+id/iv_finshed"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="300dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal" >
+    </LinearLayout>
+
+</LinearLayout>

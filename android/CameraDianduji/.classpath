@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/youmi_android_sdk_v4.10_2014-09-25/YoumiAndroidSdk/libs/无积分单独包/YoumiSdk_v4.10_2014-09-25_normal.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
